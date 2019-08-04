@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<parameter name="Browser" value="Chrome"></parameter>
+  <parameter name="URL" value="https://citrix.xo.com/vpn/index.html"></parameter>
+  
+  <test name="Test">
+    <classes>
+       <class name="selenium.advance.AutomateCitrix"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

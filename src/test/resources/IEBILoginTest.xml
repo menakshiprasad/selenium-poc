@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<parameter name="Browser" value="Chrome"></parameter>
+  <parameter name="URL" value="http://10.67.89.42/Common/Login.aspx"></parameter>
+  
+  <test name="Test">
+    <classes>
+      <class name="selenium.POM.IEBILoginTest"/>
+      <class name="selenium.POM.WelcomeTest"/>
+      
+      <class name="selenium.POM.IEBILogoutTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

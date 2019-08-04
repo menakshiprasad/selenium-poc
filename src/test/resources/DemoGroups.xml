@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<parameter name="Browser" value="Chrome"></parameter>
+<parameter name="URL" value="http://10.67.89.42/Common/Login.aspx"></parameter>
+  <test name="Test">
+  <groups>
+  <run>
+	<include name="g2"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="selenium.advance.DemoGroups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
