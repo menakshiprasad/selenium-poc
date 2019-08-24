@@ -3,6 +3,7 @@ package selenium.POM;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.JavascriptExecutor;
@@ -23,8 +24,8 @@ public class BaseClass {
 	@Parameters({"Browser","URL"})  
 	@BeforeSuite
 	  public void setUp(@Optional("IE")String browser,String URL){
-		//BasicConfigurator.configure();
-		PropertyConfigurator.configure("D:\\Selenium workspace\\Log4j.properties");
+		BasicConfigurator.configure();
+		PropertyConfigurator.configure("D:\\Selenium workspace\\Log.properties");
 		  	try
 		  	{
 		  		switch(browser)
